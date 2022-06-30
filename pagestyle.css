@@ -1,0 +1,43 @@
+.form-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #194569;
+  color: #fff;
+  align-items: center;
+}
+
+.form-container {
+  margin-top: 50px;
+}
+
+.form-control {
+  width: 500px;
+}
+
+.form-group {
+  padding-bottom: 5px;
+}
+
+.submit-button {
+  margin-top: 10px;
+}
+
+.form-heading {
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 992px) {
+  .form-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #194569;
+    color: #fff;
+    align-items: center;
+  }
+
+  .form-control {
+    width: 280px !important;
+  }
+}
